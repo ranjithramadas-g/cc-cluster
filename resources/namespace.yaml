@@ -4,3 +4,10 @@ metadata:
   name: gitops-test-ns
   labels:
     managed-by: config-sync
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: gitops-test-ns-1
+  labels:
+    managed-by: config-sync
