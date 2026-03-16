@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-tenant-config
+  namespace: gitops-test-ns
+data:
+  message: "Deployed by RepoSync from a nested folder!"
